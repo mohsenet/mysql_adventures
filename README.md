@@ -9,3 +9,14 @@ mysqldump -u root -p database_name table_name > table_name_backup.sql
 mysql -u root -p database_name < table_name_backup.sql
 ```
 
+# Query limited
+
+### Show top of the table
+```bash
+select * from app_froud_fraud_type ORDER BY id DESC 5;
+```
+### Show tail of the table
+```bash
+select * from app_froud_fraud_type ORDER BY id DESC LIMIT 5;
+```
+
