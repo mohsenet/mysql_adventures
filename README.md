@@ -20,3 +20,9 @@ select * from table_name ORDER BY id DESC 5;
 select * from table_name ORDER BY id DESC LIMIT 5;
 ```
 
+# Create database
+
+```bash
+CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
