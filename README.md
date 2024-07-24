@@ -13,10 +13,10 @@ mysql -u root -p database_name < table_name_backup.sql
 
 ### Show top of the table
 ```bash
-select * from app_froud_fraud_type ORDER BY id DESC 5;
+select * from table_name ORDER BY id DESC 5;
 ```
 ### Show tail of the table
 ```bash
-select * from app_froud_fraud_type ORDER BY id DESC LIMIT 5;
+select * from table_name ORDER BY id DESC LIMIT 5;
 ```
 
