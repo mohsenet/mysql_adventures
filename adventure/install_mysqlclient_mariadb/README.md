@@ -15,7 +15,7 @@ pip install mysqlclient
 # https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04
 sudo apt install mariadb-server
 sudo mysql_secure_installation
-mysql -uroot -p***** -e "create database fraud character set utf8mb4 collate utf8mb4_unicode_ci;"
+mysql -uroot -p***** -e "create database YOUR_DATABASE_NAME character set utf8mb4 collate utf8mb4_unicode_ci;"
 # get mariadb vertion
 SELECT @@version;
 # or
